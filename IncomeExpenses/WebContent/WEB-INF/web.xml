@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+  
+ 
+    <servlet>
+		<servlet-name>search</servlet-name>
+		<servlet-class>com.incomeexpenses.SearchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>search</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+	   
+	<servlet>
+		<servlet-name>incomeexpensesinsert</servlet-name>
+		<servlet-class>com.incomeexpenses.IncomeexpensesInsert</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>incomeexpensesinsert</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>updateincomeexpenses</servlet-name>
+		<servlet-class>com.incomeexpenses.UpdateIncomeexpensesServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>updateincomeexpenses</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	 
+	 <servlet>
+		<servlet-name>deleteincomeexpenses</servlet-name>
+		<servlet-class>com.incomeexpenses.DeleteIncomeexpensesServlet</servlet-class>
+	</servlet>  
+	<servlet-mapping>
+		<servlet-name>deleteincomeexpenses</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>enter</servlet-name>
+		<servlet-class>com.report.ReportSerachServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>enter</servlet-name>
+		<url-pattern>/enter</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>report</servlet-name>
+		<servlet-class>com.report.GeneratePDFServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>report</servlet-name>
+		<url-pattern>/generatePDF</url-pattern>
+	</servlet-mapping>
+	
+</web-app>    
