@@ -1,0 +1,163 @@
+
+.form1 {
+	margin-left:21%;
+	width: 550px;
+	padding: 50px;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	background-color: rgba(250, 250, 250, 0.1);
+}
+ 
+.form1:hover {
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+.form1:hover {
+    color: #1e1e1e;
+}
+
+input {
+	width: 200px;
+	margin-left:13%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-sizing: border-box;
+	background-color: #fff5cc;
+	color: black;
+}
+
+input[name = ineid] {
+	margin-left:26%;
+}
+
+input[name = billid] {
+	margin-left:19%;
+}
+
+input[name = bid] {
+	margin-left:19%;
+}
+
+input[name = category] {
+	margin-left:14%;
+}
+
+input[name = date] {
+	margin-left:22%;
+}
+
+input[name = phone] {
+	margin-left:12.5%;
+}
+
+input[name = amount] {
+	margin-left:15%;
+}
+
+select {
+	width: 200px;
+	padding:0.5%;
+	margin-left:14%;
+	border-radius: 6px;
+	border: 1px solid #ccc;
+	background-color: #fff5cc;
+}
+
+input[type = submit] {
+	background-color:#3385ff;
+	background: linear-gradient(to right, #3385ff, #9e93ff);
+	color:balck;
+	font-weight:bold;
+	padding:6px 12px;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	width:30%;
+}
+   
+input[type = submit]:hover {
+	background: linear-gradient(to right, #ff5858,#f857a6);
+}
+
+input[type = reset] {
+	background-color:#3385ff;
+	background: linear-gradient(to right, #3385ff, #9e93ff);
+	color:balck;
+	font-weight:bold;
+	padding:6px 12px;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	width:30%;
+}
+   
+input[type = reset]:hover {
+	background: linear-gradient(to right, #ff5858,#f857a6);
+}
+
+.form2 {
+	margin-left:30%;
+	width: 420px;
+	height: 150px;
+	padding: 35px;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	background-color: rgba(250, 250, 250, 0.1);
+}
+
+.form2:hover {
+    background-color: rgba(250, 250, 250, 0.9);
+}
+
+.form2:hover {
+    color: #1e1e1e;
+}
+
+.submit {
+	margin-left:28%;
+}
+
+.sub {
+	margin-left:28%;
+}
+
+
+table, th, td {
+	border: 3px solid #333333;
+	border-collapse: collapse;
+    background-color: #FFEFD5;
+    background: linear-gradient(to bottom, #ffffff 0%, #66ccff 100%);
+    color: black;
+}
+
+th {
+    background: linear-gradient(to right, #527a7a, #85adad);
+    font-weight:bold;
+    font-family: Cursive;
+    font-size: 18px;
+}
+
+th, td {
+	padding: 15px;
+	width:150px;
+}
+
+input[type = button] {
+	background-color:#3385ff;
+	background: linear-gradient(to right, #3385ff, #9e93ff);
+	color:balck;
+	font-weight:bold;
+	padding:6px 12px;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	width:80px;
+	margin-left:2%;
+}
+
+input[type = button]:hover {
+	background: linear-gradient(to right, #ff5858,#f857a6);
+}
